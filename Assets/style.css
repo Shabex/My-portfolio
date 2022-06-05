@@ -118,7 +118,7 @@ ul {
 .footer {
     display: flex;
     justify-content: space-around;
-    padding-right: 100px;
+    align-items: center;
 }
 
 @media(max-width: 768px) {
