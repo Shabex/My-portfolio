@@ -70,6 +70,10 @@ ul {
 .header {
     background-color: #ffc0cb;
     min-height: 400px;
+    background-image: url("images/shabz.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 
 }
 
@@ -77,10 +81,11 @@ ul {
     font-size : 3rem;
     font-weight: bold;
     line-height: 1.2;
+
 }
 
 .header image {
-    max-width: 400px;
+    max-width: 200px;
 
 }
 
@@ -125,13 +130,11 @@ ul {
     display: flex;
     text-align: center;
     align-items: center;
-    padding: 0 px;
+    line-height: normal;
 }
 
-.about {
-    display: flex;
-    align-items: center
-    height: 600px;
+.text {
+    text-align: center;
 }
 
 @media(max-width: 768px) {
