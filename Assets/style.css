@@ -121,6 +121,19 @@ ul {
     align-items: center;
 }
 
+.about p {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 0 px;
+}
+
+.about {
+    display: flex;
+    align-items: center
+    height: 600px;
+}
+
 @media(max-width: 768px) {
     .header.container {
         flex-direction: column;
