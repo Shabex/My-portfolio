@@ -13,4 +13,9 @@ body {
 }
 img {
     max-width: 100%
-}g
+}
+
+h1, h2 {
+    margin-bottom: 15px;
+
+}
